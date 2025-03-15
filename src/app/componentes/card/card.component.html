@@ -1,0 +1,22 @@
+<article class="cards-container">
+    <div class="card">
+        <div class="card-image">
+        <img src="{{personaje.image}}" alt="{{personaje.name}}">
+        <div class="status-badge" [ngClass]="personaje.status.toLowerCase()">
+            {{personaje.status}}
+        </div>
+        </div>
+        <div class="card-content">
+        <h2 class="character-name">{{personaje.name}}</h2>
+        <div class="character-info">
+            <p><span>Especie:</span> {{personaje.species}}</p>
+            <p><span>Género:</span> {{personaje.gender}}</p>
+            <p><span>Origen:</span> {{personaje.origin.name}}</p>
+            <p><span>Ubicación:</span> {{personaje.location.name}}</p>
+        </div>
+        <div class="character-episodes">
+            <p class="episode-count">Aparece en {{personaje.episode.length}} episodios</p>
+        </div>
+        </div>
+    </div>
+</article>

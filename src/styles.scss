@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import './app/app.component';
+@import './app/componentes/card/card.component.scss';
+
+body{
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-luces-brillantes-bokeh-blanco-abstracto_1017-24049.jpg?t=st=1742057978~exp=1742061578~hmac=3178ca106fe23fcb0996d6ff7b3179a19581056a00be5f98050ecae2c35e66ad&w=996');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
